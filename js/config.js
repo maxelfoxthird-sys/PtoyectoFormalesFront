@@ -35,7 +35,7 @@ const config = {
      * URL base de la API del backend.
      * Se puede configurar mediante la variable de entorno VITE_API_URL o API_URL
      */
-    API_BASE_URL: getEnvVar('API_URL', 'https://proyectoformalesback.onrender.com/api'),
+    API_BASE_URL: getEnvVar('API_URL', 'https://proyectoformalesback.onrender.com'),
 };
 
 // Exportar configuración
